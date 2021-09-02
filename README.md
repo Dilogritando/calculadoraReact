@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# Calculadora React:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+El objetivo es realizar una calculadora donde se pueda sumar, restar, dividir y multiplicar números, teniendo en cuenta las siguientes consideraciones:
+* No utilizar librerías externas para las operaciones matemáticas.
+* No se puede utilizar la función eval() de JavaScript.
+* No usar estructuras como SWITCH - IF-ELSE-IF
 
-## Available Scripts
+## Instrucciones para correr el entorno:
+1. Clonar el repositorio
+2. Desde la carpeta del proyecto, correr el comando `npm install` desde la terminal para instalar el servidor
+3. Desde la terminal, correr el comando `npm start` para iniciar el servidor, se puede ver en [http://localhost:3000](http://localhost:3000).
+4. Para generar el bundle de producción correr `npm run build`
 
-In the project directory, you can run:
+## ¿Cómo se optimizaría la implementación y la base de datos para publicar en producción, para asegurar una alta demanda simultánea de requests?
+* Se cambiaría el servidor para el acceso del público.
+* Ee podrían incluir optimizaciones en funcionalidades (operaciones múltiples, uso de decimales, guardar cantidades en memoria) accesibilidad (lector de pantallas, revisión de contraste) y manejo de buenas prácticas de SEO en el documento.
+*
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Este proyecto se creó usando:
+* NVM: 0.38.8
+* Node v14.17.5
+* NPM 7.20.6
+* SaSS 10.38.2 compiled with dart2js 2.13.4
+* [Create React App](https://github.com/facebook/create-react-app).
+* La estructura en JS Vainilla también creada por mi para esta prueba disponible en [GitHub](https://github.com/Dilogritando/calculadoraVainilla)
