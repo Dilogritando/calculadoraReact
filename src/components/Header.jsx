@@ -1,9 +1,11 @@
+import "../styles/_header.scss";
+
 function Header() {
     return (
-      <div className="Header">
-
-      </div>
+        <header>
+            <h1>Calculadora React</h1>
+        </header>
     );
-  }
+}
 
-  export default Header;
+export default Header;
