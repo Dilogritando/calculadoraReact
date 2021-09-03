@@ -1,6 +1,6 @@
-function Button(btnClass, btnContent) {
+function Button(props) {
     return (
-      <button className={ btnClass } type="button">{ btnContent }</button>
+      <button className={ props.btnClass } type="button">{ props.btnContent }</button>
     );
 }
 

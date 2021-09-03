@@ -3,7 +3,7 @@ import Button from "./Button";
 function Pad() {
 	return (
 	  	<div className="calculator__pad">
-		  <div class="calculator__pad__numbers">
+		  <div className="calculator__pad__numbers">
 				<Button btnClass="operators numbers three-column" btnContent="C" />
 				<Button btnClass="numbers" btnContent="1" />
 				<Button btnClass="numbers" btnContent="2" />
@@ -16,7 +16,7 @@ function Pad() {
 				<Button btnClass="numbers" btnContent="9" />
 				<Button btnClass="numbers three-column" btnContent="0" />
 		  </div>
-		  <div class="calculator__pad__operators">
+		  <div className="calculator__pad__operators">
 				<Button btnClass="operators" btnContent="%" />
 				<Button btnClass="operators" btnContent="x" />
 				<Button btnClass="operators" btnContent="-" />
